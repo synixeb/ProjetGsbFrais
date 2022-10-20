@@ -42,11 +42,12 @@ class FraisController extends Controller
             }
             return redirect('/getListeFrais');
         } catch (MonException $e) {
-            $monErreur = $e->getMessage();
-            return view('vues\error', compact('monErreur'));
-        } catch (Exception $e) {
-            $Erreur = $e->getMessage();
-            return view('vues\error', compact('Erreur'));
+            $erreur = $e->getMessage();
+            return view('vues\error', compact('erreur'));
+        }
+        catch (Exception $e) {
+            $erreur = $e->getMessage();
+            return view('vues\error', compact('erreur'));
         }
     }
 
