@@ -16,7 +16,7 @@
         <div class="form-group">
             <label class="col-md-3 col-sm-3 control-label">Nb justificatifs : </label>
             <div class="col-md-2  col-sm-2">
-                <input type="number" name="nbjustificatifs" value=" "  class="form-control" placeholder="Nombre de justificatifs" required>
+                <input type="number" name="nbjustificatifs" value=""  class="form-control" placeholder="Nombre de justificatifs" required>
             </div>
         </div>
         <div class="form-group">
